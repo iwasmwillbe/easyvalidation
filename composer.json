@@ -1,7 +1,8 @@
 {
     "name": "ashish/easyvalidate",
     "description": "1 step forward easy validation from laravel's builtin validation class.",
-    "type": "package",
+    "type": "library",
+    "keywords": ["validation","laravel validation","laravel easy validation","easy validation","easy validator"],
     "authors": [
         {
             "name": "ashish patel",
