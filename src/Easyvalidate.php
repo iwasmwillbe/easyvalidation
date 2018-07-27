@@ -1,6 +1,6 @@
 <?php
 
-namespace Ashish;
+namespace Ashish\Easyvalidation;
 
 use Validator;
 

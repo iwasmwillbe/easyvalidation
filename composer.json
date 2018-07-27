@@ -1,5 +1,5 @@
 {
-    "name": "ashish/easyvalidate",
+    "name": "ashish/easyvalidation",
     "description": "1 step forward easy validation from laravel's builtin validation class.",
     "type": "library",
     "keywords": ["validation","laravel validation","laravel easy validation","easy validation","easy validator"],
