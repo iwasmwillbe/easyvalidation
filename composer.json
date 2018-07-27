@@ -1,0 +1,12 @@
+{
+    "name": "ashish/easyvalidate",
+    "description": "1 step forward easy validation from laravel's builtin validation class.",
+    "type": "package",
+    "authors": [
+        {
+            "name": "ashish patel",
+            "email": "ashish@creolestudios.com"
+        }
+    ],
+    "require": {}
+}
