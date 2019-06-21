@@ -49,5 +49,5 @@ $validator = Modal::makeValidate(RequestData, Excepts, Patches);
 | ------------- | ------------- |
 | **RequestData**  |  Data to be validated.  |
 | **Excepts**  | Rules to except before validation. ie. if we want to except rule `name` from user modal validation we will define them in `Excepts` as an array `['name']`. this will validate request with all other user except `name` rule from our modal.  |
-| **Patches**  | In case if you have to modify rule or want to add new rule, you can define Patches. ie. if i want to add another rule for user modal with one more key, `['secred_key'=>'required|max:25']`. or if i want to modify existing rule `name`: ['name'=>'required|max:250'].  |
+| **Patches**  | In case if you have to modify rule or want to add new rule, you can define Patches. ie. if i want to add another rule for user modal with one more key, `['secred_key'=>'required\|max:25']`. or if i want to modify existing rule `name`: ['name'=>'required\|max:250'].  |
 
