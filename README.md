@@ -40,7 +40,7 @@ if($validator->fails()){
 ```
 there are two more validation parameters:
 ```php
-$validator = Modal::makeValidate(RequestData, Excepts, Patches);
+$validator = Modal::makeValidate(Array RequestData, Array Excepts, Array Patches);
 // RequestData: data to be validated.
 // Excepts: In case if you have to except 
 ```
