@@ -35,7 +35,7 @@ now whenever user wants to validate request with user modal. the basic validatio
 $validator = User::makeValidate($requestData); //this will validate the request with user modal.
 
 if($validator->fails()){
-    // unable to validate, perform operations you want.
+    // Validation failed. perform your operations here.
 }
 ```
 there are two more validation parameters:
